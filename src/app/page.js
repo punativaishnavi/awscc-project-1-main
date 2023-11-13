@@ -11,10 +11,10 @@ export default function Home() {
           <Image src="/logo.png" alt="Logo" width={75} height={60} />
           <h1 className={styles.logoTitle}>Extracta</h1>
         </div>
-        <nav className={styles.nav}> 
+        <nav className={styles.nav}>
           <a href="/" className={styles.navItem}>Home</a>
           <a href="/about" className={styles.navItem}>About</a>
-          <Link href="/services/page.js"className={styles.navButton}>Try Now
+          <Link href="/try-now" className={styles.navButton}>Try Now
           </Link>
         </nav>
       </header>
