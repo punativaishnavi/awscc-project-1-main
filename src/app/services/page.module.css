@@ -1,0 +1,113 @@
+/*Services-page.module.css*/
+.header {
+    background-color: #161B33; /* match your Figma design */
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.navItem {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 20px;
+    font-weight: bold; /* Add this if your design requires */
+}
+
+
+.headline {
+    color: #fff;
+    max-width: 600px; /* Max width for the headline */
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Spacing between the headline and the button */
+}
+
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoTitle {
+    margin-left: 20px; /* Adjust as per your design */
+    color: #fff; /* Text color for the logo title */
+    font-size: 2rem; /* Adjust font size to match your design */
+    font-weight: bold; /* Adjust as per your design */
+}
+
+.navButton {
+    background-color: #F1DAC4; /* Button background color */
+    color: #161B33; /* Button text color, assuming it's the same as the body background */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Adjust as per design */
+    font-size: 1rem;
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-block; /* Allows padding and dimensions */
+    margin-left: 10px; /* Spacing from the other nav items */
+    transition: background-color 0.3s ease; /* Smooth background color change on hover */
+}
+
+.verticalContainer {
+    display: flex;
+    flex-direction: row; /* Change to row to align horizontally */
+    justify-content: space-between; /* Adjust as needed for spacing between rectangles */
+    margin-bottom: 20px; /* Adjust as needed for spacing between vertical containers */
+}
+
+.rectangle {
+    display: flex; /* Use flex container for inner items */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    position: relative; /* Position relative for positioning the button */
+    background-color: #A69CAC;
+    width: 25%; /* Reduce width to 30% */
+    height: 350px; /* Set height */
+    border-radius: 20px; /* Adjust border-radius accordingly */
+    margin-right: 50px;
+    margin-left: 50px; /* Add margin-right for a small gap between rectangles */
+    padding: 20px; /* Add padding for content */
+    box-sizing: border-box; /* Include padding in the total width/height */
+}
+
+.button {
+    position: absolute; /* Position absolute for absolute positioning */
+    bottom: 20px; /* Set distance from the bottom */
+    left: 50%; /* Move to the middle horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    background-color: #474973;
+    color: white;
+    border: none;
+    padding: 15px 60px; /* Adjust padding accordingly */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 200px; /* Set the width of your logo */
+    height: 100px; /* Set the height of your logo */
+    margin-bottom: 10px; /* Add space between the logo and the heading */
+}
+
+.heading {
+    font-size: 20px; /* Adjust the font size of the heading */
+    margin-bottom: 10px; /* Add space between the heading and the text */
+    color:#000000;
+}
+
+.text {
+    color: #000000;
+    font-size: 16px; /* Adjust the font size of the text */
+}
